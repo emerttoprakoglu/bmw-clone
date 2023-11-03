@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;1,200&family=Rajdhani:wght@400;500&family=Russo+One&family=Teko:wght@300;500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+   
+    font-family: 'Rajdhani', sans-serif;
+
+    box-sizing: border-box;
+}
+.kapsayıcı{
+    width: 100%;
+    
+    height: 80vh;
+    background: url(yuzde-yuz-elektrikli-surus-keyfi--main-banner-2560x852-1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 0px;
+    height: 100px;
+    margin: 0 200px;
+    width: calc(100% - 400px); 
+    border-bottom: 1px solid rgb(0, 0, 0); 
+    
+}
+.sol{
+    display: flex;
+    gap: 20px;
+}
+.ulll{
+    
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.ulll2{
+    display: flex;
+    gap: 20px;
+}
+.alar{
+    color: black;
+    font-size: 18px;
+}
+
+.lii{
+    position: relative;
+}
+.lii::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background-color: black;
+    position: absolute; 
+    left: 0;
+    bottom: -36px;
+    
+}
+.lii:hover::after{
+width: 100%;
+}
+.sımge{
+    padding: 10px 10px;
+}
+
+.home{
+    
+    height: 60%;
+    width: 100%;
+   display: flex;
+   align-items: center;
+   padding-left: 80px;
+}
+.başlık1{
+    color: black;
+    font-size: 30px;
+}
+.başlık2{
+    color: black;
+    font-size: 100px;
+}
+.başlık3{
+    color: black;
+    font-size: 50px;
+}
+.buton1{
+background: #0653B6;
+width: 150px;
+height: 50px;
+border: none;
+color: white;
+font-size: 16px;
+font-weight: lighter;
+letter-spacing: 1px;
+border-radius: 1px;
+}
+.buton1:hover{
+    background: rgb(63, 63, 161);
+}
+
+
+
+
+.başlıklarım{
+    margin-top: 40px;
+}
+.başlıkk1{
+    text-align: center;
+  }
+.başlıkk2{
+    text-align: center;
+}
+
+
+
+.container {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .box {
+    
+    flex: 1; /* Her bir div'in eşit genişliğe sahip olduğundan emin olur */
+    padding: 10px ; /* İsteğe bağlı iç boşluk ekleyebilirsiniz */
+    
+  }
+
+  .img1{
+    width: 100%;
+    }
+
+.p1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    
+}
+.btn11{
+    margin-top: 10px;
+    text-align: center;
+}
+.btn1{
+background: transparent;
+width: 200px;
+height: 50px;
+font-size: 20px;
+border: 1px solid black;
+border-radius: 2px;
+}
+.btn1:hover{
+    border: none;
+}
+
+
+
+
+
+.grad{
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    height: 60vh;
+    margin-top: 120px;
+    background: url(DI22_000074340_3to1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.grad .yazılarım{
+    
+    padding-top: 200px;
+    padding-left: 50px;
+    max-width: 100%;
+    width: 25%;
+}
+
+.gradbaşlık{
+    font-size: 20px;
+    color: white;
+
+}
+.gradyazı{
+    font-size:40px;
+    color: white;
+}
+
+.btn{
+    
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: solid white 2px;
+    border-radius: 1px;
+    font-size: 20px;
+    
+}
+.btn:hover{
+    border: none;
+}
+
+
+
+
+
+.kapsa{
+    display: flex;
+    width: 100%;
+    margin-top: 120px;
+    gap: 20px;
+}
+.kapsa2{
+    flex-basis: 50%;
+   
+}
+
+.videooo{
+    padding-left: 100px;
+    
+    
+}
+.başlık33{
+    font-size: 25px;
+}
+.başlık22{
+    padding-top: 20px;
+    font-size: 50px;
+}
+.yazı22{
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.yazııı{
+    padding-top: 50px;
+}
+
+.btn22{
+    
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 1px;
+    font-size: 20px;
+    
+}
+.btn22:hover{
+    border: none;
+}
+
+.butonpad{
+    padding-top: 20px;
+}
+
+
+
+
+.footler{
+    margin-top: 100px;
+    width: 100%;   
+    height: 60px; 
+    background: transparent;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.uller{
+    display: flex;
+    gap: 20px;
+    padding-right: 40px;
+}
+.allar{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.footsol{
+    padding-left: 40px;
+}
+
+
+@media screen and (max-width: 1344px) {
+    
+   
+    .grad .yazılarım{
+        width: 100%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1050px) {
+    
+    
+    .container{
+        flex-direction: column;
+    }
+    .yazııı{
+        display: none;
+    }
+    .kapsa{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    
+    .ulll{
+        display: none;
+    }
+    .navbar{
+        border: none;
+        margin: 0;
+        
+    }
+    .home{
+        padding-left: 10px;
+    }
+    .yazılar{
+        text-align: center;
+    }
+    .yazılar .başlık1{
+        font-size: 40px;
+    }
+    .yazılar .başlık2{
+        font-size: 40px;
+    }
+    .yazılar .başlık3{
+        font-size: 40px;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .logo{
+        padding: 4px 4px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 400px) {
+    
+   
+    .grad .yazılarım {
+        text-align: center;
+    }
+    .grad .yazılarım .gradbaşlık{
+        font-size: 16px;
+        
+    }
+    .grad .yazılarım .gradyazı{
+        font-size: 16px;
+    }
+    .grad .yazılarım .btn{
+        width: 70px;
+        font-size: 10px;
+    }
+
+    .uller{
+        display: block;
+    }
+    
+    .foot{
+        
+        flex-direction: column;
+       text-align: center;
+
+    }
+    .footsol{
+        text-align: center;
+        padding: 0;
+    }
+    .uller{
+        padding: 0;
+    }
+  
+}
